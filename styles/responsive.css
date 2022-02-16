@@ -1,0 +1,209 @@
+/* TABLET */
+@media (min-width: 640px) {
+  /* Biodata */
+  .profile__img {
+    width: 30%;
+  }
+  .profile--detail {
+    font-size: 1rem;
+  }
+
+  .link--opened {
+    right: -55px;
+    width: 95%;
+  }
+}
+
+/* LAPTOP */
+@media (min-width: 1024px) {
+  /* Navigasi */
+  .nav {
+    padding-left: 3rem;
+  }
+
+  .nav__hamburger {
+    display: none;
+  }
+
+  .nav__link {
+    display: flex;
+    align-items: center;
+  }
+  .link__item {
+    text-decoration: none;
+    color: black;
+    margin-right: 3rem;
+    font-weight: 500;
+    transition: all 200ms ease-out;
+  }
+  .link__item:hover {
+    transform: scale(1.2);
+    font-weight: 600;
+  }
+
+  /* Jumbotran */
+  .profil__image {
+    width: 15rem;
+    border-radius: 200px;
+  }
+
+  .jumbotron__panel {
+    width: 80%;
+    margin: 5rem auto !important;
+    padding: 1.5rem !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+  }
+  .panel:hover {
+    transform: scale(1.2);
+  }
+
+  .profile__name {
+    font-size: 25px;
+  }
+
+  /* Intro */
+  .intro {
+    height: 80vh;
+  }
+
+  .intro__image {
+    width: 25rem;
+    left: 69vw;
+  }
+  .intro__detail {
+    text-align: left;
+    padding-top: 5rem;
+    width: 50%;
+    padding-left: 3rem;
+  }
+  .intro__title {
+    font-size: 2rem;
+  }
+  .intro__description {
+    font-size: 18px;
+  }
+  .for--intro {
+    background-color: #f8bf02 !important;
+    position: absolute;
+    top: 125px;
+    left: 48px;
+    width: 36px;
+  }
+
+  /* Study */
+  .study {
+    height: 80vh;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .study__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .study__title {
+    font-size: 1.8rem !important;
+  }
+
+  .study__school {
+    width: 45%;
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+
+  /* Biodata */
+  .biodata {
+    display: flex;
+    padding: 4rem;
+  }
+
+  .biodata__profile {
+    width: 100%;
+  }
+  .profile--hobi {
+    margin-right: 2rem;
+    width: 40%;
+    height: 50%;
+  }
+
+  .profile__img {
+    margin-bottom: 2rem;
+    width: 25%;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1440px) {
+  .intro__image {
+    left: 75vw;
+  }
+
+  .intro__detail {
+    padding-left: 4rem;
+  }
+
+  .profile__img {
+    width: 25%;
+  }
+}
+
+/* WIDE DESKTOP */
+@media (min-width: 1536px) {
+  .profil__name {
+    font-size: 2rem;
+  }
+  .intro__image {
+    width: 30rem;
+    left: 69rem;
+  }
+
+  .intro__detail {
+    padding-left: 5rem;
+    width: 55%;
+  }
+
+  .for--intro {
+    left: 80px;
+    top: 135px;
+    height: 7px;
+  }
+
+  .intro__title {
+    font-size: 2.5rem;
+  }
+  .intro__description {
+    font-size: 22px;
+  }
+
+  .study {
+    height: 100vh;
+  }
+  .study__title {
+    font-size: 32px !important;
+  }
+  .school__name {
+    font-size: 22px;
+  }
+  .school__year {
+    font-size: 1rem;
+  }
+  .study__school {
+    padding: 4rem;
+  }
+  .name--main {
+    font-size: 28px;
+  }
+
+  .biodata__profile {
+    padding: 4rem;
+    font-size: 20px;
+  }
+  .profile__title {
+    font-size: 26px;
+  }
+  .profile__img {
+    width: 25%;
+  }
+}
